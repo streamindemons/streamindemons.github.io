@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.streamindemons" name="Streamin Demons Repo" version="1.4" provider-name="streamindemons">
+	<extension point="xbmc.addon.repository" name="Streamin Demons Repo">
+		<info compressed="false">https://raw.githubusercontent.com/streamindemons/streamindemons.github.io/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/streamindemons/streamindemons.github.io/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://streamindemons.github.io/repo/zips/</datadir>		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Streamin Demons Repo</summary>
+		<description>Repo for Kodi 19</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+     </assets>
+	</extension>
+</addon>
